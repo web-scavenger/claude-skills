@@ -2,7 +2,8 @@
 
 My personal, version-controlled collection of [Claude Code](https://code.claude.com) skills.
 Organized by category and invocation type (structure inspired by
-[mattpocock/skills](https://github.com/mattpocock/skills)); all skills are my own.
+[mattpocock/skills](https://github.com/mattpocock/skills)). Skills are my own except where
+a row is marked with its upstream source.
 
 ## How it works
 
@@ -38,6 +39,7 @@ category path.
 | `/write-tests`  | engineering | manual | vitest/jest tests for a file (golden path + edges) |
 | `/review`       | engineering | manual | Two-axis review: standards + spec/intent |
 | `debug`         | engineering | **auto** | Structured debugging loop |
+| `codebase-design` | engineering | **auto** | Deep-module vocabulary for interface/seam design ([mattpocock/skills](https://github.com/mattpocock/skills)) |
 | `/to-spec`      | productivity | manual | Turn a discussion into a tracker-ready spec |
 | `/teach`        | productivity | manual | Multi-session tutoring in the current dir |
 | `/study-notes`  | productivity | manual | Structured, recall-optimized notes |
