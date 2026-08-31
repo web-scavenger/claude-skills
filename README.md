@@ -38,10 +38,14 @@ category path.
 | `/write-tests`  | engineering | manual | vitest/jest tests for a file (golden path + edges) |
 | `/review`       | engineering | manual | Two-axis review: standards + spec/intent |
 | `debug`         | engineering | **auto** | Structured debugging loop |
+| `domain-modeling` | engineering | **auto** | Maintain CONTEXT.md glossary + ADRs as the model is discussed |
+| `/grill-with-docs` | engineering | manual | `/grill-me`, but also builds CONTEXT.md/ADRs as it goes |
 | `/to-spec`      | productivity | manual | Turn a discussion into a tracker-ready spec |
 | `/teach`        | productivity | manual | Multi-session tutoring in the current dir |
 | `/study-notes`  | productivity | manual | Structured, recall-optimized notes |
 | `/new-skill`    | productivity | manual | Scaffold a new skill + re-run installer |
+| `/grill-me`     | productivity | manual | Run a `/grilling` session |
+| `grilling`      | productivity | **auto** | Pressure-test a plan/design before committing to it |
 | `research`      | productivity | **auto** | Investigate against primary sources, cited notes |
 
 ## Install
